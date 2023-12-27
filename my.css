@@ -1,0 +1,136 @@
+*{
+     margin: 0;
+}
+img{
+    width: 100%;
+}
+body{
+    height: 700px;
+}
+label{
+    display: block;
+    font-size: 1.3em;
+}
+input{
+    width: 250px;
+    height: 35px;
+    font-size: 1.3em;
+}
+h4{
+    font-size: 2em;
+    
+}
+.button{
+    background-color: lightgreen;
+}
+.button:hover{
+    background-color: lightgray;
+}
+a{
+    text-decoration: moccasin;
+    font-size: 1.3em;
+    color: black;
+}
+a:hover{
+    background-color: lightgrey;
+    padding: 10px;
+}
+ h3{
+
+    font-size: 1.3em;
+}
+.suratimain img{
+    width: 865px;
+
+}
+.surato img{
+    width: 210px;
+}
+.surato{
+    display: flex;
+   padding-top:10px ;
+   justify-content: space-around;
+   width: 870px;
+   margin-left: -2px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.icons1{
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+}
+.extra,.rule{
+    width: 500px;
+}
+.rule input{
+    background-color: lightgreen;
+}
+.rule input:hover{
+    background-color: lightgrey;
+}
+#submit{
+    background-color: lightgreen;
+}
+.maincontainer{
+    display: flex;
+}
+.maindiv2 input{
+    width: 500px;
+   
+}
+.rule .sub{
+    width: 200px;
+}
+.contact #submit{
+    width: 200px;
+    display: block;
+}
+.maindiv{
+  margin-left: 200px;
+  width: 290px;
+  height: 800px;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+.maindiv2{
+    
+    width: 1100px;
+    height: 800px;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    padding-left: 20px;
+    border: 1px solid gray;
+    border-top: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+  }
+  h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .icon1, h2, i{
+    margin-bottom: 15px;
+  }
+  .contact, input, p{
+    margin-bottom: 13px;
+  }
+  .icons, .icons1, .extra, .rule{
+    border: 1px solid gray;
+    width: 800px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+  }
+  .app{
+    color: lightgreen;
+  }
+.icons1 .icon3{
+    margin-right: 110px;
+}
+.contact input{
+    width: 800px;
+}
